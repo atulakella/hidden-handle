@@ -5,6 +5,9 @@ What we offer is a new novel way of upgrading that door handle in an inconspicuo
 
 Our aim is to provide a commercial implementation of a door handle that at first glance appears to be perfectly rudimentary, one that might be encountered in a typical home. However, it actually houses a recognition mechanism that is able to identify an intruder anomaly in a fraction of a second and alert not only you, the owner but also all connected smart devices and your local smart home network.
 
+![Untitled-1](https://github.com/atulakella/hidden-handle/assets/44159259/79d9856c-f6c7-4241-a99c-0197e74376a2)
+
+
 We achieve this functionality by incorporating an ultrasonic fingerprint sensor on the underside of a traditional door handle. Due to this unique positioning, we lull any intruders into a false sense of security, inviting them to try to open the handle but as soon as they make this attempt our system recognises an anomaly as their handprints are not in the database and alerts the owner and all attached smart devices.
 
 It is this unique selling feature of subverting expectations using smart construction on top of the addition of smart technology that would make us considerably more effective than our competition. 
