@@ -25,6 +25,8 @@ The CAD designs for a novel smart door handle concept designed for seamless inte
 
 **3. Smart Home Integration:** The design allows for connection with other smart home devices, enabling automated responses upon intruder detection. (Note: Implementation details for this functionality are not included in this repository)
 
+We've also attached a stl file for the same dasign.
+
 ![Untitled](https://github.com/atulakella/hidden-handle/assets/44159259/c7993552-8248-48c8-97c5-df4ff75c28e6)
 
 ![Untitled-1](https://github.com/atulakella/hidden-handle/assets/44159259/e615e1a9-6f14-477a-b7f6-44a3123dd477)
@@ -39,6 +41,6 @@ The CAD designs for a novel smart door handle concept designed for seamless inte
 
 
 ## Circuit Diagram and Code
-Below is the code on how you can check your fingerprint and if it will match those fingerprints inside our R307 database.
+This schematic illustrates the electrical connections and components that form the core functionality of the smart door handle with anomaly detection. 
 
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
