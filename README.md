@@ -44,3 +44,9 @@ We've also attached a stl file for the same dasign.
 This schematic illustrates the electrical connections and components that form the core functionality of the smart door handle with anomaly detection. 
 
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
+
+
+## Contrubuters
+
+Mithlesh B (Kingsmen732)
+Jai Gaurav (jai-gaurav)
