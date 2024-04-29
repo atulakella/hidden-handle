@@ -45,8 +45,10 @@ This schematic illustrates the electrical connections and components that form t
 
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
 
+## Future Plans
+This can later be integrated with an API like PushBullet and can make a simple API call whenever someone access a few restricted areas or something similar.
 
 ## Contrubuters
-
+Atul Akella (atulakella)
 Mithlesh B (Kingsmen732)
 Jai Gaurav (jai-gaurav)
