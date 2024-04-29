@@ -37,5 +37,6 @@ The CAD designs for a novel smart door handle concept designed for seamless inte
 
 
 
-## Circuit Diagram
+## Circuit Diagram and Code
+Below is the code on how you can check your fingerprint and if it will match those fingerprints inside our R307 database.
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
