@@ -1,6 +1,6 @@
 # hidden-handle
 
-## Project Overview:
+## Project Overview and Detalied Data Flow Diagram:
 What we offer is a new novel way of upgrading that door handle in an inconspicuous way that is non-existent in the current smart door handle market bloated with complicated and intimidating-looking mechanisms.Smart homes are a growing market with each and every section of a house incorporating technology to evolve, the same is true for handles be they on your door, your fridge, a school locker, a garage door, or an IIEC cabin space. What we offer is a new novel way of upgrading that door handle in an inconspicuous way that is non-existent in the current smart door handle market bloated with complicated and intimidating-looking mechanisms.
 
 Our aim is to provide a commercial implementation of a door handle that at first glance appears to be perfectly rudimentary, one that might be encountered in a typical home. However, it actually houses a recognition mechanism that is able to identify an intruder anomaly in a fraction of a second and alert not only you, the owner but also all connected smart devices and your local smart home network.
@@ -35,8 +35,7 @@ The CAD designs for a novel smart door handle concept designed for seamless inte
 ![Untitled](https://github.com/atulakella/hidden-handle/assets/44159259/36c0fdfc-94b6-40e9-afef-56437011428e)
 
 
-
-
 ## Circuit Diagram and Code
 Below is the code on how you can check your fingerprint and if it will match those fingerprints inside our R307 database.
+
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
