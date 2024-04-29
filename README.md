@@ -10,4 +10,15 @@ We achieve this functionality by incorporating an ultrasonic fingerprint sensor 
 It is this unique selling feature of subverting expectations using smart construction on top of the addition of smart technology that would make us considerably more effective than our competition. 
 
 ![image](https://github.com/atulakella/hidden-handle/assets/44159259/31666b02-0478-4f3c-8e33-2c50e85a002a)
+
+##CAD Designs
+The CAD designs for a novel smart door handle concept designed for seamless integration into existing homes.
+
+### Key Features:
+
+    #### Unobtrusive Design: The handle maintains a traditional appearance, concealing an ultrasonic fingerprint sensor on the underside. This deters potential intruders and blends seamlessly into any home environment.
+    #### Enhanced Security: The system goes beyond simple fingerprint recognition. It utilizes anomaly detection to identify unauthorized users attempting to open the door, offering an extra layer of security.
+    #### Smart Home Integration: The design allows for connection with other smart home devices, enabling automated responses upon intruder detection. (Note: Implementation details for this functionality are not included in this repository)
+
+##Circuit Diagram
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
