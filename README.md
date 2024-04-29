@@ -22,5 +22,20 @@ The CAD designs for a novel smart door handle concept designed for seamless inte
 
 **3. Smart Home Integration:** The design allows for connection with other smart home devices, enabling automated responses upon intruder detection. (Note: Implementation details for this functionality are not included in this repository)
 
+![Untitled](https://github.com/atulakella/hidden-handle/assets/44159259/c7993552-8248-48c8-97c5-df4ff75c28e6)
+
+![Untitled-1](https://github.com/atulakella/hidden-handle/assets/44159259/e615e1a9-6f14-477a-b7f6-44a3123dd477)
+
+![Untitled](https://github.com/atulakella/hidden-handle/assets/44159259/bd5d960b-845f-4ce0-8940-4d9cc12ffe0e)
+
+![Untitled](https://github.com/atulakella/hidden-handle/assets/44159259/c436cd00-5cec-42f0-be0e-48ff149d0b0a)
+
+![Untitled-1](https://github.com/atulakella/hidden-handle/assets/44159259/6ca691db-62a6-437d-b8a8-8bc1697407d4)
+
+![Untitled](https://github.com/atulakella/hidden-handle/assets/44159259/36c0fdfc-94b6-40e9-afef-56437011428e)
+
+
+
+
 ## Circuit Diagram
 ![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
