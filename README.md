@@ -10,3 +10,4 @@ We achieve this functionality by incorporating an ultrasonic fingerprint sensor 
 It is this unique selling feature of subverting expectations using smart construction on top of the addition of smart technology that would make us considerably more effective than our competition. 
 
 ![image](https://github.com/atulakella/hidden-handle/assets/44159259/31666b02-0478-4f3c-8e33-2c50e85a002a)
+![nlh](https://github.com/atulakella/hidden-handle/assets/44159259/9ef262b5-7d3c-4603-93e6-c58c8a842576)
