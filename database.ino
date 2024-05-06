@@ -2,7 +2,7 @@
 
 #include <Adafruit_Fingerprint.h>
 
-HardwareSerial serialPort(2); // use UART2
+HardwareSerial serialPort(2);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&serialPort);
 
 int getFingerprintIDez();
@@ -16,7 +16,6 @@ void setup()
   Serial.begin(9600);
   Serial.println("Fingerprint template extractor");
 
-  // set the data rate for the sensor serial port
   finger.begin(57600);
 
   if (finger.verifyPassword())
@@ -30,7 +29,6 @@ void setup()
       ;
   }
 
-  // Try to get the templates for fingers 1 through 10
   for (int finger = 1; finger < 10; finger++)
   {
     downloadFingerprintTemplate(finger);
@@ -59,7 +57,6 @@ uint8_t downloadFingerprintTemplate(uint16_t id)
     return p;
   }
 
-  // OK success!
 
   Serial.print("Attempting to get #");
   Serial.println(id);
@@ -77,8 +74,7 @@ uint8_t downloadFingerprintTemplate(uint16_t id)
     return p;
   }
 
-  // one data packet is 267 bytes. in one data packet, 11 bytes are 'usesless' :D
-  uint8_t bytesReceived[534]; // 2 data packets
+  uint8_t bytesReceived[534]; 
   memset(bytesReceived, 0xff, 534);
 
   uint32_t starttime = millis();
@@ -99,7 +95,7 @@ uint8_t downloadFingerprintTemplate(uint16_t id)
 
   // filtering only the data packets
   int uindx = 9, index = 0;
-  memcpy(fingerTemplate + index, bytesReceived + uindx, 256); // first 256 bytes
+  memcpy(fingerTemplate + index, bytesReceived + uindx, 256); 
   uindx += 256;                                               // skip data
   uindx += 2;                                                 // skip checksum
   uindx += 9;                                                 // skip next header
