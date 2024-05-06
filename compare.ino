@@ -10,11 +10,10 @@ void setup()
 {
   Serial.begin(9600);
   while (!Serial)
-    ; // For Yun/Leo/Micro/Zero/...
+    ;
   delay(100);
   Serial.println("\n\nAdafruit finger detect test");
 
-  // set the data rate for the sensor serial port
   finger.begin(57600);
   delay(5);
   if (finger.verifyPassword())
@@ -65,7 +64,7 @@ void setup()
 void loop()
 {
   getFingerprintID();
-  delay(50); // don't ned to run this at full speed.
+  delay(50); 
 }
 
 uint8_t getFingerprintID()
@@ -90,7 +89,6 @@ uint8_t getFingerprintID()
     return p;
   }
 
-  // OK success!
 
   p = finger.image2Tz();
   switch (p)
@@ -115,7 +113,6 @@ uint8_t getFingerprintID()
     return p;
   }
 
-  // OK converted!
   p = finger.fingerSearch();
   if (p == FINGERPRINT_OK)
   {
@@ -136,8 +133,6 @@ uint8_t getFingerprintID()
     Serial.println("Unknown error");
     return p;
   }
-
-  // found a match!
   Serial.print("Found ID #");
   Serial.print(finger.fingerID);
   Serial.print(" with confidence of ");
@@ -146,7 +141,6 @@ uint8_t getFingerprintID()
   return finger.fingerID;
 }
 
-// returns -1 if failed, otherwise returns ID #
 int getFingerprintIDez()
 {
   uint8_t p = finger.getImage();
