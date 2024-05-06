@@ -96,49 +96,23 @@ uint8_t downloadFingerprintTemplate(uint16_t id)
   // filtering only the data packets
   int uindx = 9, index = 0;
   memcpy(fingerTemplate + index, bytesReceived + uindx, 256); 
-  uindx += 256;                                               // skip data
-  uindx += 2;                                                 // skip checksum
-  uindx += 9;                                                 // skip next header
-  index += 256;                                               // advance pointer
-  memcpy(fingerTemplate + index, bytesReceived + uindx, 256); // second 256 bytes
+  uindx += 256;                                               
+  uindx += 2;                                                 
+  uindx += 9;                                                 
+  index += 256;                                               
+  memcpy(fingerTemplate + index, bytesReceived + uindx, 256); 
 
   for (int i = 0; i < 512; ++i)
   {
-    // Serial.print("0x");
+
     printHex(fingerTemplate[i], 2);
-    // Serial.print(", ");
+
   }
   Serial.println("\ndone.");
 
   return p;
 
-  /*
-    uint8_t templateBuffer[256];
-    memset(templateBuffer, 0xff, 256);  //zero out template buffer
-    int index=0;
-    uint32_t starttime = millis();
-    while ((index < 256) && ((millis() - starttime) < 1000))
-    {
-    if (mySerial.available())
-    {
-      templateBuffer[index] = mySerial.read();
-      index++;
-    }
-    }
 
-    Serial.print(index); Serial.println(" bytes read");
-
-    //dump entire templateBuffer.  This prints out 16 lines of 16 bytes
-    for (int count= 0; count < 16; count++)
-    {
-    for (int i = 0; i < 16; i++)
-    {
-      Serial.print("0x");
-      Serial.print(templateBuffer[count*16+i], HEX);
-      Serial.print(", ");
-    }
-    Serial.println();
-    }*/
 }
 
 void printHex(int num, int precision)
