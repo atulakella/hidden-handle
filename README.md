@@ -48,7 +48,7 @@ This schematic illustrates the electrical connections and components that form t
 ## Future Plans
 This can later be integrated with an API like PushBullet and can make a simple API call whenever someone access a few restricted areas or something similar.
 
-## Contrubuters
+## Contributes
 Atul Akella (atulakella)
 Mithlesh B (Kingsmen732)
 Jai Gaurav (jai-gaurav)
